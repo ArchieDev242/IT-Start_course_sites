@@ -84,7 +84,7 @@ Creative project with unique design and animations
 git clone https://github.com/ArchieDev242/IT-Start_course_sites.git
 ```
 
-2. Open `main.html` in browser or run local server:
+2. Open `index.html` in browser or run local server:
 ```bash
 # Using Python
 python -m http.server 8000
