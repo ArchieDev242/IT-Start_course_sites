@@ -1,0 +1,263 @@
+*{
+  padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(images/bg.jpg) no-repeat;
+    font-family: Sansita Swashed;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg{
+    width: 100%;
+    min-height: 1500px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+header{
+    position: relative;
+    z-index: 9;
+    background: #12ea2b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #303030;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    display: inline-block;
+}
+
+.active a{
+    border: 2px solid #303030;
+    padding: 5px;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    border:  2px solid #303030;
+    padding: 5px;
+    color: #000;
+    font-weight: bold;
+}
+
+.content{
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    text-align: center;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    border-radius: 5px;
+    padding: 35px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.content h1{
+    font-size: 50px;
+    border-bottom: 2px solid #303030;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    transition: all 0.1s;
+    width: 50%;
+    margin: 15px auto;
+}
+
+.left-part img{
+    width: 250px;
+}
+.right-part{
+    float: right;
+    width: 45%;
+    margin-top: 30px;
+}
+
+
+.row img{
+    width: 33%;
+    cursor: pointer
+}
+.content for div{
+    text-align: left;
+}
+
+.content{
+    position: relative;
+    z-index: 2;
+    top: 100px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    border-radius: 5px;
+    padding: 35px;
+    height: 1000px;
+    margin-bottom: 50px;
+}
+
+.content form div label{
+    font-size: 25px;
+    text-transform: uppercase;
+    display: block;
+    float: left;
+}
+
+.content form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.content form div{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content form div input{
+    display: block;
+    float: right;
+    height: 40px;
+    text-indent: 15px;
+    width: 50%;
+    border: 2px solid #303030;
+}
+
+.row-1{
+    clear: both;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.row-1 .block{
+    width: 190px;
+    border: 3px solid #303030;
+    background: linear-gradient(to right, #4776e6, #8e54e9); 
+}
+
+.row-1 .block img{
+    width: 40%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.row-1 .block img:hover{
+    transform: scale(0.9);
+}
+
+.row-1 .block p{
+    color: #303030;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.row-1 .block a{
+    color: purple;
+    text-decoration: none;
+    padding-top: 20px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.row-1 .block a:hover{
+    color: #000;
+    transform:scale(1.2);
+}
+
+.row-1 .block{
+    transition: all 0.6;
+}
+
+.row-1 .block:hover{
+    transform: scale(1.2);
+}
+
+.image-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.survival p{
+    font-size: 14px;
+    line-height: 15px;
+    padding: 5px;
+}
+
+.survival .left-part{
+    width: 44%;
+    border: 5px solid #000;
+    padding: 10px;
+    margin-top: 28px;
+}
+
+.container{
+    display: block;
+    height: 200px;
+}
+
+.container-inner{
+    margin: 10px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    transform: scale(1);
+    transition: all 0.5s;
+    justify-content: space-between;
+    width: 12%;
+    padding: 210px;   
+}
+
+.text h1{
+    height: 300px;
+    vertical-align: middle;
+    width: 500px;
+    text-align: center;
+    font-size: 29px;
+    margin: 5px;
+    position: relative;
+    justify-content: space-between;
+    float: left;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 50px;
+    right: 15px;
+    top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited{
+  color: #000;  
+}
+
+a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+

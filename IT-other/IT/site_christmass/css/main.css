@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/fon1.png);
+    background-size: cover;
+    background-position:center ;
+    background-attachment:fixed;
+    background-position-y:-40px ;
+    height: 100vh;
+    background-color: #2a232f;
+}
+.circle{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background: url(../img/fon2.png) center;
+    position: relative;
+    background-size: cover;
+    background-color: #211d27;
+
+}
+.wrap-number{
+    display: flex;
+    justify-content: center;
+    font-size: 250px;
+    color: #fff;
+    position: relative;
+}
+.number{
+    margin-top: 110px;
+    margin-right: 40px;
+    position: relative;
+}
+.number img{
+    position: absolute;
+    bottom: 0;
+}
+.number.number_1 img{
+    left: 15px;
+    bottom: 50px;
+    width: 85px;
+}
+.number.number_2 img{
+    left: 24px;
+    bottom: 48px;
+    width: 85px;
+}
+.number.number_3 img{
+    left: 15px;
+    bottom: 51px;
+    width: 85px;
+}
+.number.number_4 img {
+    left: 49px;
+    bottom: 50px;
+    width: 26px;
+}
+.shar{
+    position: absolute;
+    animation: shar1 5s infinite;
+}
+.shar img{
+    position: absolute;
+    z-index: 99;
+}
+.shar_1 img{
+    top: -250px;
+    width: 70px;
+    left: -20px;
+    animation: shar1 4s infinite;
+}
+.shar_2 img{
+    top: -250px;
+    width: 60px;
+    left: 150px;
+    animation: shar1 8s infinite;
+}
+.shar_3 img{
+    top: -210px;
+    width: 70px;
+    left: 280px;
+    animation: 7s infinite;
+}
+.shar_4 img{
+    top: -250px;
+    width: 50px;
+    left: 400px;
+    animation: shar1 6s infinite;
+}
+.shar_5 img{
+    top: -250px;
+    width: 70px;
+    left: 500px;
+    animation: shar1 9s infinite;
+}

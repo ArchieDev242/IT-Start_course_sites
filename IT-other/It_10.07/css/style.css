@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(231, 229, 226);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header {
+    background-color: rgba(179, 179, 179, 0.876);
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-style: italic;
+}
+header nav ul, li {
+    display: inline-flex;
+    text-transform: uppercase;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+header nav ul, li a {
+   transition: 0,2s;
+}
+
+/* Head */
+
+.head {
+    float: right;
+    margin-top: 80px;
+}
+.head ul, li {
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+.head ul, li :hover {
+    background-color: #a3a3a3;
+    color: #fff;
+    transition: 0.2s ease;
+}
+.head li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+
+/* Logo , Logo-head */
+
+.logo {
+    width: 180px;
+    height: 180px;
+}
+.Logo-head span {
+    font-size: 30px;
+}
+
+/* Links - A */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Banner */
+
+.banner {
+    background-image: url(../images/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 450px;
+    padding-bottom: 204px;
+    color: #fff;
+}
+.banner1 {
+    background-color: seashell;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 450px;
+    padding-bottom: 204px;
+    color: #fff;
+}
+.h3 {
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Wrapper */
+
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box { 
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.box-item {
+    padding: 54px 0 41px 55px;
+    box-sizing: content-box;
+}
+
+.box-txt h3 {
+    font-size: 45px;
+    margin-bottom: 11px;
+    margin-top: 0px;
+}
+
+.box-txt p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 0;
+}
