@@ -44,9 +44,9 @@ Travel website for searching and booking trips around the world
 - **Features:** Tour booking, destination search
 
 ### Fashion Store
-Stylish online store for fashionable clothing and accessories
+Programming courses website with educational content and resources
 - **Technologies:** E-commerce, Fashion Design  
-- **Features:** Product catalog, stylish design
+- **Features:** Course catalog, educational materials
 
 ### Sneaker Kingdom
 Specialized store for sneakers and sports footwear
