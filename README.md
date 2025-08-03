@@ -54,9 +54,9 @@ Specialized store for sneakers and sports footwear
 - **Features:** Footwear catalog, modern design
 
 ### Cat Paradise
-Cute website dedicated to cats and their care
+Random game recommendation system based on user preferences
 - **Technologies:** HTML, CSS, Interactive elements
-- **Features:** Cute theme, interactivity
+- **Features:** Game suggestions, user input forms
 
 ### JS Playground
 Interactive website for demonstrating JavaScript capabilities
