@@ -4,7 +4,7 @@ Welcome to my web development portfolio! This site contains a collection of all 
 
 ## 🌐 Live Demo
 
-**View the portfolio online:** [https://archiedev242.github.io/Portfolium/](https://archiedev242.github.io/Portfolium/)
+**View the portfolio online:** [https://archiedev242.github.io/IT-Start_course_sites/](https://archiedev242.github.io/IT-Start_course_sites/)
 
 No installation required - just click the link above to explore all projects directly in your browser!
 
